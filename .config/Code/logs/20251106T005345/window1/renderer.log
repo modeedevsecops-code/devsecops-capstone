@@ -1,0 +1,6 @@
+2025-11-06 00:53:48.689 [info] Started local extension host with pid 184320.
+2025-11-06 00:53:55.584 [error] [Extension Host] (node:184320) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-06 00:54:02.400 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-06 00:54:05.291 [info] [perf] Render performance baseline is 78ms
+2025-11-06 23:38:51.527 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

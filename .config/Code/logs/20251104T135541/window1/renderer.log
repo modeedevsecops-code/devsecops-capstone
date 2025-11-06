@@ -1,0 +1,63 @@
+2025-11-04 13:55:56.636 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 24ms.
+2025-11-04 13:55:56.823 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 35ms.
+2025-11-04 13:55:56.917 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 34ms.
+2025-11-04 13:56:04.077 [info] Started local extension host with pid 3931.
+2025-11-04 13:56:39.660 [info] Extension host (LocalProcess pid: 3931) is unresponsive.
+2025-11-04 13:56:39.679 [info] Extension host (LocalProcess pid: 3931) is responsive.
+2025-11-04 13:56:45.988 [info] Extension host (LocalProcess pid: 3931) is unresponsive.
+2025-11-04 13:56:46.101 [error] Error while getting the latest version for the extension esbenp.prettier-vscode from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-04 13:56:46.154 [error] Error while getting the latest version for the extension hugh-clements.github-actions-workflow-security-scanner from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-04 13:56:46.179 [error] Error while getting the latest version for the extension ms-azuretools.vscode-docker from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-04 13:56:46.187 [error] Error while getting the latest version for the extension ms-vscode-remote.remote-containers from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-04 13:56:46.209 [error] Error while getting the latest version for the extension redhat.vscode-yaml from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-04 13:56:49.069 [info] Extension host (LocalProcess pid: 3931) is responsive.
+2025-11-04 13:57:01.197 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 140ms.
+2025-11-04 13:57:01.589 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-04 13:57:05.245 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 168ms.
+2025-11-04 13:57:09.136 [info] [perf] Render performance baseline is -1ms
+2025-11-04 14:58:12.366 [error] [Extension Host] (node:3931) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-04 20:49:46.184 [error] Cancelled: Canceled: Canceled
+    at BJe.O (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:36522)
+    at async BJe.N (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:35251)
+    at async BJe.D (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:24251)
+    at async vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:23722
+    at async Promise.all (index 0)
+    at async BJe.C (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:23673)
+    at async BJe.getExtensions (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:22330)
+    at async ndt.getExtensions (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2405:15150)
+    at async zGs.Rc (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2401:17026)
+    at async zGs.$c (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2401:19670)
+2025-11-04 21:16:24.870 [error] Cancelled: Canceled: Canceled
+    at BJe.O (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:36522)
+    at async BJe.N (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:35251)
+    at async BJe.D (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:24251)
+    at async vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:23722
+    at async Promise.all (index 0)
+    at async BJe.C (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:23673)
+    at async BJe.getExtensions (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1266:22330)
+    at async ndt.getExtensions (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2405:15150)
+    at async zGs.Rc (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2401:17026)
+    at async zGs.$c (vscode-file://vscode-app/snap/code/206/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2401:19670)
+2025-11-04 21:47:25.119 [info] Extension host (LocalProcess pid: 3931) is unresponsive.
+2025-11-04 21:47:25.138 [info] Extension host (LocalProcess pid: 3931) is responsive.
+2025-11-04 21:53:09.358 [info] Extension host (LocalProcess pid: 3931) is unresponsive.
+2025-11-04 21:53:09.434 [info] Extension host (LocalProcess pid: 3931) is responsive.
+2025-11-04 22:15:24.289 [info] Extension host (LocalProcess pid: 3931) is unresponsive.
+2025-11-04 22:15:27.334 [info] Extension host (LocalProcess pid: 3931) is responsive.
+2025-11-04 22:59:09.813 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-11-04 23:04:34.996 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-11-05 14:23:49.337 [warning] Semantic token with invalid length detected at lineNumber 2, column 13
+2025-11-05 14:25:25.255 [error] fetch failed: TypeError: fetch failed
+	at node:internal/deps/undici/undici:13510:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async EQ.globalThis.fetch (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:24242)
+	at async httpRequest (/home/modee/.vscode/extensions/ms-azuretools.vscode-containers-2.2.0/dist/extension.bundle.js:2:1581602)
+	at async doFetchHttpsJson (/home/modee/.vscode/extensions/ms-azuretools.vscode-containers-2.2.0/dist/extension.bundle.js:2:5547219)
+	at async fetchHttpsJson (/home/modee/.vscode/extensions/ms-azuretools.vscode-containers-2.2.0/dist/extension.bundle.js:2:5547093)
+	at async YP.provideCompletionItems (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:142846)
+2025-11-05 14:27:50.416 [error] [Extension Host] (node:3931) [DEP0051] DeprecationWarning: The `util.isNullOrUndefined` API is deprecated. Please use `arg === null || arg === undefined` instead.
+2025-11-05 19:13:49.680 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-11-05 19:19:29.845 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-11-05 19:25:09.935 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-11-05 21:00:03.193 [warning] Failed to fetch chat participant registry Failed to fetch

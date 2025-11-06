@@ -1,0 +1,30 @@
+2025-10-29 22:09:40.288 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 26ms.
+2025-10-29 22:09:40.408 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 28ms.
+2025-10-29 22:09:40.513 [warning] Creation of workbench contribution 'workbench.contrib.editorStatus' took 24ms.
+2025-10-29 22:09:40.516 [warning] Creation of workbench contribution 'workbench.contrib.textMateTokenizationInstantiator' took 37ms.
+2025-10-29 22:09:40.580 [warning] Creation of workbench contribution 'workbench.contrib.notebookChatContribution' took 42ms.
+2025-10-29 22:09:40.618 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 28ms.
+2025-10-29 22:09:40.677 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 26ms.
+2025-10-29 22:09:46.109 [info] Started local extension host with pid 3389.
+2025-10-29 22:10:03.587 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 152ms.
+2025-10-29 22:10:04.790 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-29 22:10:13.072 [warning] Creation of workbench contribution 'workbench.contrib.authentication' took 126ms.
+2025-10-29 22:10:13.598 [info] Extension host (LocalProcess pid: 3389) is unresponsive.
+2025-10-29 22:10:16.866 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 130ms.
+2025-10-29 22:10:16.961 [info] Extension host (LocalProcess pid: 3389) is responsive.
+2025-10-29 22:10:18.009 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 112ms.
+2025-10-29 22:10:22.392 [info] [perf] Render performance baseline is 166ms
+2025-10-29 22:11:55.795 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 22ms.
+2025-10-29 22:11:55.831 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 23ms.
+2025-10-29 22:11:57.975 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-29 22:12:00.244 [info] Started local extension host with pid 3789.
+2025-10-29 22:12:28.586 [info] Extension host (LocalProcess pid: 3789) is unresponsive.
+2025-10-29 22:12:30.729 [info] Extension host (LocalProcess pid: 3789) is responsive.
+2025-10-29 22:12:33.918 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 109ms.
+2025-10-29 22:12:40.106 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-29 22:12:52.688 [info] [perf] Render performance baseline is 285ms
+2025-10-30 00:13:45.657 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-30 00:19:32.405 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-30 00:25:12.789 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-30 00:35:09.180 [error] [Extension Host] (node:3789) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,45 @@
+2025-10-29 22:09:57.405 [info] Extension host with pid 3389 started
+2025-10-29 22:09:58.641 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-29 22:10:01.520 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-29 22:10:01.999 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-29 22:10:03.288 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-29 22:10:07.138 [info] Eager extensions activated
+2025-10-29 22:10:09.095 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:10:09.180 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:10:09.300 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:10:10.715 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:10:12.507 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:11:50.858 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-29 22:11:50.960 [info] Extension host with pid 3389 exiting with code 0
+2025-10-29 22:12:11.789 [info] Extension host with pid 3789 started
+2025-10-29 22:12:11.804 [info] Skipping acquiring lock for /home/modee/.config/Code/User/workspaceStorage/e1a790d95dc168ef535e145dc02d8e8c.
+2025-10-29 22:12:15.272 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-29 22:12:15.588 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-29 22:12:16.066 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-29 22:12:17.473 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-29 22:12:18.941 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-29 22:12:25.265 [info] Eager extensions activated
+2025-10-29 22:12:25.651 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:12:25.665 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:12:26.160 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:12:26.676 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:12:27.943 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 22:12:39.084 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-30 00:35:06.374 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: false, activationEvent: 'onLanguage:github-actions-workflow'
+2025-10-30 00:35:07.636 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:github-actions-workflow'
+2025-10-30 00:35:13.886 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-10-30 00:35:13.929 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-10-30 00:35:18.362 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-30 00:35:18.480 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-30 00:35:19.048 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-30 00:35:21.755 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-10-30 00:35:21.784 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2025-10-30 00:39:40.976 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2025-10-30 00:39:41.148 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2025-10-30 00:39:41.522 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2025-10-30 00:39:42.393 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2025-10-30 00:40:13.587 [info] ExtensionService#_doActivateExtension Hugh-Clements.github-actions-workflow-security-scanner, startup: false, activationEvent: 'onLanguage:yaml'
+2025-10-30 00:51:47.811 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2025-10-30 00:51:51.102 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2025-10-30 00:51:54.688 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2025-10-31 15:26:30.036 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

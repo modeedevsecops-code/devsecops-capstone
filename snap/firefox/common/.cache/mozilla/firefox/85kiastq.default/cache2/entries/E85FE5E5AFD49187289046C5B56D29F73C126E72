@@ -1,0 +1,150 @@
+Ôªø2025-11-04T14:24:21.4596701Z ##[group]Run github/codeql-action/analyze@v3
+2025-11-04T14:24:21.4597240Z with:
+2025-11-04T14:24:21.4597415Z   output: ../results
+2025-11-04T14:24:21.4597592Z   upload: always
+2025-11-04T14:24:21.4597766Z   skip-queries: false
+2025-11-04T14:24:21.4598079Z   checkout_path: /home/runner/work/devsecops-capstone/devsecops-capstone
+2025-11-04T14:24:21.4598415Z   upload-database: true
+2025-11-04T14:24:21.4598614Z   wait-for-processing: true
+2025-11-04T14:24:21.4598941Z   token: ***
+2025-11-04T14:24:21.4599119Z   matrix: {
+  "language": "go"
+}
+2025-11-04T14:24:21.4599329Z   expect-error: false
+2025-11-04T14:24:21.4599527Z env:
+2025-11-04T14:24:21.4599701Z   CODEQL_ACTION_FEATURE_MULTI_LANGUAGE: false
+2025-11-04T14:24:21.4599964Z   CODEQL_ACTION_FEATURE_SANDWICH: false
+2025-11-04T14:24:21.4600209Z   CODEQL_ACTION_FEATURE_SARIF_COMBINE: true
+2025-11-04T14:24:21.4600453Z   CODEQL_ACTION_FEATURE_WILL_UPLOAD: true
+2025-11-04T14:24:21.4600692Z   CODEQL_ACTION_VERSION: 3.31.2
+2025-11-04T14:24:21.4600932Z   JOB_RUN_UUID: 2dffaefa-abc1-4b6e-9417-80b4105d6ce8
+2025-11-04T14:24:21.4601231Z   CODEQL_ACTION_INIT_HAS_RUN: true
+2025-11-04T14:24:21.4601521Z   CODEQL_ACTION_ANALYSIS_KEY: .github/workflows/codeql.yml:analyze
+2025-11-04T14:24:21.4601856Z   CODEQL_WORKFLOW_STARTED_AT: 2025-11-04T14:24:00.624Z
+2025-11-04T14:24:21.4602242Z   CODEQL_ACTION_GO_BINARY: /home/runner/work/_temp/codeql-action-go-tracing/bin/go
+2025-11-04T14:24:21.4602588Z   CODEQL_RAM: 14581
+2025-11-04T14:24:21.4602757Z   CODEQL_THREADS: 4
+2025-11-04T14:24:21.4603020Z   CODEQL_SCRATCH_DIR: /home/runner/work/_temp/codeql_databases/working
+2025-11-04T14:24:21.4603338Z   CODEQL_VERBOSITY: warnings
+2025-11-04T14:24:21.4603598Z   CODEQL_DIST: /opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql
+2025-11-04T14:24:21.4603882Z   CODEQL_PLATFORM: linux64
+2025-11-04T14:24:21.4604092Z   CODEQL_PLATFORM_DLL_EXTENSION: .so
+2025-11-04T14:24:21.4604438Z   CODEQL_JAVA_HOME: /opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/tools/linux64/java
+2025-11-04T14:24:21.4604880Z   CODEQL_EXTRACTOR_GO_ROOT: /opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/go
+2025-11-04T14:24:21.4605312Z   CODEQL_EXTRACTOR_GO_WIP_DATABASE: /home/runner/work/_temp/codeql_databases/go
+2025-11-04T14:24:21.4605828Z   CODEQL_EXTRACTOR_GO_DIAGNOSTIC_DIR: /home/runner/work/_temp/codeql_databases/go/diagnostic/extractors/go
+2025-11-04T14:24:21.4606348Z   CODEQL_EXTRACTOR_GO_LOG_DIR: /home/runner/work/_temp/codeql_databases/go/log
+2025-11-04T14:24:21.4606798Z   CODEQL_EXTRACTOR_GO_SCRATCH_DIR: /home/runner/work/_temp/codeql_databases/go/working
+2025-11-04T14:24:21.4607491Z   CODEQL_EXTRACTOR_GO_TRAP_DIR: /home/runner/work/_temp/codeql_databases/go/trap/go
+2025-11-04T14:24:21.4608170Z   CODEQL_EXTRACTOR_GO_SOURCE_ARCHIVE_DIR: /home/runner/work/_temp/codeql_databases/go/src
+2025-11-04T14:24:21.4608543Z   SEMMLE_HANDLE_STATIC_BINARIES: true
+2025-11-04T14:24:21.4608777Z   CODEQL_EXTRACTOR_GO_THREADS: 4
+2025-11-04T14:24:21.4608986Z   CODEQL_EXTRACTOR_GO_RAM: 14581
+2025-11-04T14:24:21.4609311Z   CODEQL_TRACER_LOG: /home/runner/work/_temp/codeql_databases/log/build-tracer.log
+2025-11-04T14:24:21.4609811Z   CODEQL_TRACER_DIAGNOSTICS_DIR: /home/runner/work/_temp/codeql_databases/diagnostic/tracer
+2025-11-04T14:24:21.4610182Z   CODEQL_TRACER_LANGUAGES: go
+2025-11-04T14:24:21.4610630Z   SEMMLE_PRELOAD_libtrace: /opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/tools/linux64/${LIB}_${PLATFORM}_trace.so
+2025-11-04T14:24:21.4611270Z   SEMMLE_PRELOAD_libtrace32: /opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/tools/linux64/lib32trace.so
+2025-11-04T14:24:21.4611861Z   SEMMLE_PRELOAD_libtrace64: /opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/tools/linux64/lib64trace.so
+2025-11-04T14:24:21.4612399Z   CODEQL_RUNNER: /opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/tools/linux64/runner
+2025-11-04T14:24:21.4612916Z   LD_PRELOAD: /opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/tools/linux64/${LIB}_${PLATFORM}_trace.so
+2025-11-04T14:24:21.4613318Z ##[endgroup]
+2025-11-04T14:24:22.7680245Z While resolving threads, found a cgroup CPUs file with 4 CPUs in /sys/fs/cgroup/cpuset.cpus.effective.
+2025-11-04T14:24:22.7717973Z Not performing diff-informed analysis because we are not analyzing a pull request.
+2025-11-04T14:24:22.7770970Z ##[group]Attempting to automatically build go code
+2025-11-04T14:24:22.7888142Z Picked up JAVA_TOOL_OPTIONS:  -Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false
+2025-11-04T14:24:23.6958622Z [command]/opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/go/tools/autobuild.sh 
+2025-11-04T14:24:24.1028994Z 2025/11/04 14:24:24 Autobuilder was built with go1.25.0, environment has go1.24.9
+2025-11-04T14:24:24.1030341Z 2025/11/04 14:24:24 LGTM_SRC is /home/runner/work/devsecops-capstone/devsecops-capstone
+2025-11-04T14:24:24.1036867Z 2025/11/04 14:24:24 Found no go.work files in the workspace; looking for go.mod files...
+2025-11-04T14:24:24.1040431Z 2025/11/04 14:24:24 Found no go.mod files in the workspace.
+2025-11-04T14:24:24.1044232Z 2025/11/04 14:24:24 Found 0 go.mod file(s).
+2025-11-04T14:24:24.1044882Z 2025/11/04 14:24:24 Import path is 'github.com/modeedevsecops-code/devsecops-capstone'
+2025-11-04T14:24:24.1047385Z 2025/11/04 14:24:24 Temporary directory is /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556.
+2025-11-04T14:24:24.1050223Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/automate_minimal_fs.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556/automate_minimal_fs.sh.
+2025-11-04T14:24:24.1051841Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/.git to /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556/.git.
+2025-11-04T14:24:24.1053114Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/.github to /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556/.github.
+2025-11-04T14:24:24.1054301Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/system_monitoring.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556/system_monitoring.sh.
+2025-11-04T14:24:24.1055502Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/README.md to /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556/README.md.
+2025-11-04T14:24:24.1056673Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/network_isolation.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556/network_isolation.sh.
+2025-11-04T14:24:24.1058164Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/Isolated_environment.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556/Isolated_environment.sh.
+2025-11-04T14:24:24.1059697Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/error_handling.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556/error_handling.sh.
+2025-11-04T14:24:24.1060897Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/mount_system.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556/mount_system.sh.
+2025-11-04T14:24:24.1062165Z 2025/11/04 14:24:24 Moving /home/runner/work/devsecops-capstone/devsecops-capstone/scratch793260556 to /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone.
+2025-11-04T14:24:24.1063120Z 2025/11/04 14:24:24 GOPATH set to /home/runner/work/devsecops-capstone/devsecops-capstone/root.
+2025-11-04T14:24:24.1063661Z 2025/11/04 14:24:24 Unable to find any build scripts, continuing to install dependencies in the normal way.
+2025-11-04T14:24:24.1064184Z 2025/11/04 14:24:24 The code in . seems to be missing a go.mod file. Attempting to initialize one...
+2025-11-04T14:24:24.1064658Z 2025/11/04 14:24:24 Import path is 'github.com/modeedevsecops-code/devsecops-capstone'
+2025-11-04T14:24:24.1100455Z go: creating new go.mod: module github.com/modeedevsecops-code/devsecops-capstone
+2025-11-04T14:24:24.1170357Z 2025/11/04 14:24:24 go: warning: "all" matched no packages
+2025-11-04T14:24:24.1171068Z 
+2025-11-04T14:24:24.1172252Z 2025/11/04 14:24:24 Installing dependencies using `go get -v ./...` in `.`.
+2025-11-04T14:24:24.1229657Z go: warning: "github.com/modeedevsecops-code/devsecops-capstone/..." matched no packages
+2025-11-04T14:24:24.1236757Z 2025/11/04 14:24:24 Running extractor command '/opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/go/tools/linux64/go-extractor [./...]' from directory '.'.
+2025-11-04T14:24:24.4668061Z 2025/11/04 14:24:24 Build flags: ''; patterns: './...'
+2025-11-04T14:24:24.4730301Z 2025/11/04 14:24:24 Running packages.Load.
+2025-11-04T14:24:24.5532559Z 2025/11/04 14:24:24 Done running packages.Load.
+2025-11-04T14:24:24.5533340Z 2025/11/04 14:24:24 No packages found.
+2025-11-04T14:24:24.5535760Z 2025/11/04 14:24:24 Extracting universe scope.
+2025-11-04T14:24:24.5541368Z 2025/11/04 14:24:24 Done extracting universe scope.
+2025-11-04T14:24:24.5541984Z 2025/11/04 14:24:24 Running go list to resolve package and module directories.
+2025-11-04T14:24:24.5605723Z 2025/11/04 14:24:24 Done running go list deps: resolved 0 packages.
+2025-11-04T14:24:24.5606435Z 2025/11/04 14:24:24 Done processing dependencies.
+2025-11-04T14:24:24.5606879Z 2025/11/04 14:24:24 Starting to extract packages.
+2025-11-04T14:24:24.5607430Z 2025/11/04 14:24:24 Done extracting packages.
+2025-11-04T14:24:24.5670714Z 2025/11/04 14:24:24 Success: extraction succeeded for all 1 discovered project(s).
+2025-11-04T14:24:24.5673374Z 2025/11/04 14:24:24 Restoring /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone/automate_minimal_fs.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/automate_minimal_fs.sh.
+2025-11-04T14:24:24.5676678Z 2025/11/04 14:24:24 Restoring /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone/.git to /home/runner/work/devsecops-capstone/devsecops-capstone/.git.
+2025-11-04T14:24:24.5679202Z 2025/11/04 14:24:24 Restoring /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone/.github to /home/runner/work/devsecops-capstone/devsecops-capstone/.github.
+2025-11-04T14:24:24.5681673Z 2025/11/04 14:24:24 Restoring /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone/system_monitoring.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/system_monitoring.sh.
+2025-11-04T14:24:24.5684623Z 2025/11/04 14:24:24 Restoring /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone/README.md to /home/runner/work/devsecops-capstone/devsecops-capstone/README.md.
+2025-11-04T14:24:24.5687873Z 2025/11/04 14:24:24 Restoring /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone/network_isolation.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/network_isolation.sh.
+2025-11-04T14:24:24.5690820Z 2025/11/04 14:24:24 Restoring /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone/Isolated_environment.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/Isolated_environment.sh.
+2025-11-04T14:24:24.5693569Z 2025/11/04 14:24:24 Restoring /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone/error_handling.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/error_handling.sh.
+2025-11-04T14:24:24.5696160Z 2025/11/04 14:24:24 Restoring /home/runner/work/devsecops-capstone/devsecops-capstone/root/src/github.com/modeedevsecops-code/devsecops-capstone/mount_system.sh to /home/runner/work/devsecops-capstone/devsecops-capstone/mount_system.sh.
+2025-11-04T14:24:24.5698378Z ##[endgroup]
+2025-11-04T14:24:24.5825805Z Picked up JAVA_TOOL_OPTIONS:  -Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false
+2025-11-04T14:24:25.4787571Z ##[group]Finalizing go
+2025-11-04T14:24:25.4789232Z [command]/opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/codeql database finalize --finalize-dataset --threads=4 --ram=14581 /home/runner/work/_temp/codeql_databases/go
+2025-11-04T14:24:25.4901272Z Picked up JAVA_TOOL_OPTIONS:  -Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false
+2025-11-04T14:24:26.6044148Z CodeQL detected code written in GitHub Actions, but not any written in Go. Confirm that there is some source code for Go in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build .
+2025-11-04T14:24:26.6466463Z ##[error]Encountered a fatal error while running "/opt/hostedtoolcache/CodeQL/2.23.3/x64/codeql/codeql database finalize --finalize-dataset --threads=4 --ram=14581 /home/runner/work/_temp/codeql_databases/go". Exit code was 32 and last log line was: CodeQL detected code written in GitHub Actions, but not any written in Go. Confirm that there is some source code for Go in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build . See the logs for more details.
+êóU∆Uv      i
+ii
+iHŒÀÊi
+∞  T    O^partitionKey=%28https%2Cgithub.com%29,a,~FETCH,:https://productionresultssa11.blob.core.windows.net/actions-results/05c4875e-76cf-4099-b0ce-fee12923dfc0/workflow-job-run-90d55454-4520-5685-add9-0bacc8c88c80/logs/steps/step-logs-490ecc33-56b5-41a6-86c0-3d093fd12670.txt?rsct=text%2Fplain&se=2025-11-04T15%3A29%3A04Z&sig=S3368oNBgzkNesQBEv5sFPIy2dZa2yWlboAQs%2ByXirQ%3D&ske=2025-11-05T01%3A32%3A50Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2025-11-04T13%3A32%3A50Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=r&spr=https&sr=b&st=2025-11-04T15%3A18%3A59Z&sv=2025-11-05 strongly-framed 1 security-info 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Yi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MTEuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MTIuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MTMuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MTQuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MTUuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MTYuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MTcuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MTguYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MTkuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjAuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjEuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjIuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjMuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjQuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjUuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjYuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjcuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjguYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MjkuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzAuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzEuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzIuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzMuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzQuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzUuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzYuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzcuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzguYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56MzkuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDAuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDEuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDIuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDMuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDQuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDUuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDYuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDcuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDguYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NDkuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIcKi56NTAuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldDAMBgNVHRMBAf8EAjAAMGoGA1UdHwRjMGEwX6BdoFuGWWh0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2lvcHMvY3JsL01pY3Jvc29mdCUyMEF6dXJlJTIwUlNBJTIwVExTJTIwSXNzdWluZyUyMENBJTIwMDMuY3JsMGYGA1UdIARfMF0wUQYMKwYBBAGCN0yDfQEBMEEwPwYIKwYBBQUHAgEWM2h0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2lvcHMvRG9jcy9SZXBvc2l0b3J5Lmh0bTAIBgZngQwBAgIwHwYDVR0jBBgwFoAU/glxQFUFEETYpIF1uJ4a6UoGiMgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA0GCSqGSIb3DQEBDAUAA4ICAQAlbCkUPZyFUcLd/8h7B8Ruojg2Iy79sWKewbU5g+guvg05cVfe+BH/P4/9G8pgg6kNML9YiHie3kCYnwoBxPy0FgvhneF25uzH+5cEUy3jky2eH8JYw8sHaKJkXRYuOblo1D4UZ76S4z/1zen0jjb9fVdInJHN3m0y+nDlIBD57S8aPRK12aGdeQ2kRCENAKNVqZHP2asXye+wvVigxVjJqjXKj6X355fhho+kGYRYOFPjBgo/1QfEfYm/xC8IoYr4mKPbN1D1ed1MvBClm60wJyZdYfUV8WSSYxnLN3afArOro1/YpI31CDuSvN4ab50DwlEXMaWlL5AEYj30l1VjG/YC9yGBSUjyuyHOZku8stYQjw1fwCF4wXTazEaYyVM+HWAu4Cq32DCy5GSCqbeFrESQ4MU+R50nuyRYR0WN86pqbyDej7a4hsB8lacy4j29gGSh9NoCyXGyKPWWhwYKdu8H66AvHFdKcNVFZsaJfXZJ/CvOt/GhbTmbsfWSF8PEhxAH1ety3WJT0hueD6WAr85YoouHj0GvxMwKhf1lERpiVjwppqMxvlOB2txYjhWw2Kw9jzplqV6yrKXep2/XrMfdS5DGBdQ28coMdFTtPJb9JMCfNMt1JMpcbHxxIODynZ75PgJPW5DuNVu2tRBbelSqqvmF7S6wIa+8ClID6BMCAAQAAAAAAAEBAAAFAAAABFAyNTYAAAAOUlNBLVBTUy1TSEEyNTYAA2YKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAADpIwgg6OMIIMdqADAgECAhMzAtZMwbZDIbx4J3fGAAAC1kzBMA0GCSqGSIb3DQEBDAUAMF0xCzAJBgNVBAYTAlVTMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xLjAsBgNVBAMTJU1pY3Jvc29mdCBBenVyZSBSU0EgVExTIElzc3VpbmcgQ0EgMDMwHhcNMjUwOTI4MTcyNTQ2WhcNMjYwMzI3MTcyNTQ2WjBuMQswCQYDVQQGEwJVUzELMAkGA1UECBMCV0ExEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEgMB4GA1UEAwwXKi5ibG9iLmNvcmUud2luZG93cy5uZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5ccImFjcaBS/4ByLWEW02HJvP+xMPuoowClWz5qYldu8na5jw3rkVa7Oz7bsgH0g+Q4DmbQh32s5f/tuAyS59BTuhmPbMIKzWOOAos/yF/8WKiRyLVp/7k4bA4K0ga576fU1IgYQQiUlXp6FnD4QMuaZYp5DCQxgTycxk7mEuflVJD5Klgl/nDpA8JafIJCxjWjBPCyuVvNC2Xh1mrwZ+CPK1N4fZgBbxqIcllo/lK1Ceuelt+G2I9N1NWDIRBiUdRPL4KmvP0nvuukvL0HG0AtepHXSb5/TsBPzjDUzHjF2va3kHXU2fm/EvAmbu38XsbUb3COuF+IuRc3BxxuCNAgMBAAGjggo0MIIKMDCCAXwGCisGAQQB1nkCBAIEggFsBIIBaAFmAHUAlpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcYAAAGZkWUpYAAABAMARjBEAiBBH42mQ3wnGAYXOYJAdZDHVaoOE0m41xFrKjGowvSQCgIgOQb9kCvQNQkyzx+ysdVQFDloDRNDVUqdtt+C6cL5MbYAdQBkEcRspBLsp4kcogIuALyrTygH1B41J6vq/tUDyX3N8AAAAZmRZSkRAAAEAwBGMEQCIEXxgg9caG1o8S9x0vDMSiRlC69qunf5wkk/hI87MvfNAiAbbxcO7nmm9ISJao7WXg1I6RNZOE7f5DXqPtqFXLLc4gB2AA5XlLzzrqk+MxssmQez95Dfm8I9cTIl3SGpJaxhxU4hAAABmZFlKQUAAAQDAEcwRQIgSc0fBBM0K+ZnNrqmne/NB5XJdqxeQxG18YuUI83kbUUCIQCDKNTxix3tcL/Oo4spvqRWRsgy5vbKvS5k+y3dujL/STAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMBMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIe91xuB5+tGgoGdLo7QDIfw2h1dgqvnMIft8R8CAWQCAS0wgbQGCCsGAQUFBwEBBIGnMIGkMHMGCCsGAQUFBzAChmdodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpb3BzL2NlcnRzL01pY3Jvc29mdCUyMEF6dXJlJTIwUlNBJTIwVExTJTIwSXNzdWluZyUyMENBJTIwMDMlMjAtJTIweHNpZ24uY3J0MC0GCCsGAQUFBzABhiFodHRwOi8vb25lb2NzcC5taWNyb3NvZnQuY29tL29jc3AwHQYDVR0OBBYEFDnW2dyEOXEP1W7+bB7d81LrkXxYMA4GA1UdDwEB/wQEAwIFoDCCBj0GA1UdEQSCBjQwggYwghcqLmJsb2IuY29yZS53aW5kb3dzLm5ldIIoKi5ibHoyNXByZHN0cnowOWEuc3RvcmUuY29yZS53aW5kb3dzLm5ldIIYKi5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghsqLnoxLmJsb2Iuc3RvcmFnZS5henVyZS5uZXSCGyouejIuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIbKi56My5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghsqLno0LmJsb2Iuc3RvcmFnZS5henVyZS5uZXSCGyouejUuYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIbKi56Ni5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghsqLno3LmJsb2Iuc3RvcmFnZS5henVyZS5uZXSCGyouejguYmxvYi5zdG9yYWdlLmF6dXJlLm5ldIIbKi56OS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxMC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxMS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxMi5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxMy5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxNC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxNS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxNi5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxNy5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxOC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoxOS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyMC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyMS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyMi5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyMy5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyNC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyNS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyNi5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyNy5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyOC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnoyOS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozMC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozMS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozMi5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozMy5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozNC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozNS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozNi5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozNy5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozOC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLnozOS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0MC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0MS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0Mi5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0My5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0NC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0NS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0Ni5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0Ny5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0OC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno0OS5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0ghwqLno1MC5ibG9iLnN0b3JhZ2UuYXp1cmUubmV0MAwGA1UdEwEB/wQCMAAwagYDVR0fBGMwYTBfoF2gW4ZZaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9jcmwvTWljcm9zb2Z0JTIwQXp1cmUlMjBSU0ElMjBUTFMlMjBJc3N1aW5nJTIwQ0ElMjAwMy5jcmwwZgYDVR0gBF8wXTBRBgwrBgEEAYI3TIN9AQEwQTA/BggrBgEFBQcCARYzaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9Eb2NzL1JlcG9zaXRvcnkuaHRtMAgGBmeBDAECAjAfBgNVHSMEGDAWgBT+CXFAVQUQRNikgXW4nhrpSgaIyDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDQYJKoZIhvcNAQEMBQADggIBACVsKRQ9nIVRwt3/yHsHxG6iODYjLv2xYp7BtTmD6C6+DTlxV974Ef8/j/0bymCDqQ0wv1iIeJ7eQJif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 request-method GET response-head HTTP/1.1 200 OK
+Content-Length: 13515
+Content-Type: text/plain
+Content-MD5: UHcUmL09+8meafvgaf87mw==
+Last-Modified: Tue, 04 Nov 2025 14:24:27 GMT
+Accept-Ranges: bytes
+ETag: "0x8DE1BADDC327E48"
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id: 27e7e051-401e-00c1-509e-4d3013000000
+x-ms-version: 2025-11-05
+x-ms-creation-time: Tue, 04 Nov 2025 14:24:27 GMT
+x-ms-lease-status: unlocked
+x-ms-lease-state: available
+x-ms-blob-type: BlockBlob
+x-ms-server-encrypted: true
+Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Type,ETag,Last-Modified,x-ms-creation-time,Content-MD5,x-ms-lease-status,x-ms-lease-state,x-ms-blob-type,x-ms-server-encrypted,Accept-Ranges,Content-Length,Date,Transfer-Encoding
+Access-Control-Allow-Origin: *
+Date: Tue, 04 Nov 2025 15:19:05 GMT
+ original-response-headers Content-Length: 13515
+Content-Type: text/plain
+Content-MD5: UHcUmL09+8meafvgaf87mw==
+Last-Modified: Tue, 04 Nov 2025 14:24:27 GMT
+Accept-Ranges: bytes
+ETag: "0x8DE1BADDC327E48"
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id: 27e7e051-401e-00c1-509e-4d3013000000
+x-ms-version: 2025-11-05
+x-ms-creation-time: Tue, 04 Nov 2025 14:24:27 GMT
+x-ms-lease-status: unlocked
+x-ms-lease-state: available
+x-ms-blob-type: BlockBlob
+x-ms-server-encrypted: true
+Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Type,ETag,Last-Modified,x-ms-creation-time,Content-MD5,x-ms-lease-status,x-ms-lease-state,x-ms-blob-type,x-ms-server-encrypted,Accept-Ranges,Content-Length,Date,Transfer-Encoding
+Access-Control-Allow-Origin: *
+Date: Tue, 04 Nov 2025 15:19:05 GMT
+ ctid 1 uncompressed-len 0 net-response-time-onstart 708 net-response-time-onstop 709   4À

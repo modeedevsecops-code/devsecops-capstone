@@ -1,0 +1,4 @@
+[Error - 10:58:34 PM] github-actions-security-server client: couldn't create connection to server.
+Launching server using command java failed. Error: spawn java ENOENT
+[Error - 10:58:34 PM] Starting the server failed.
+Launching server using command java failed. Error: spawn java ENOENT

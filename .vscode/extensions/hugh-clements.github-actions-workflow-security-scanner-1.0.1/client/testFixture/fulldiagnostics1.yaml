@@ -1,0 +1,24 @@
+name: Vulnerable Input Example
+
+on:
+  workflow_dispatch:
+    inputs:
+      some_input:
+        description: "User-controlled input"
+        required: true
+      some_other_input:
+        description: "again"
+        required: true
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Pass input to action
+        uses: some/action@v1
+        with:
+          test_input: ${{ inputs.some_other_input }}
+
+      - name: Run unsafely with user input
+        run: |
+          echo "Executing: ${{ inputs.some_input }}"

@@ -1,0 +1,32 @@
+2025-11-04 13:56:46.077 [error] #1: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/dbaeumer/vscode-eslint/latest - error GET Canceled
+2025-11-04 13:56:46.088 [error] #2: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/esbenp/prettier-vscode/latest - error GET Fetch timeout: 10000ms
+2025-11-04 13:56:46.117 [error] #3: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/vscode-github-actions/latest - error GET Canceled
+2025-11-04 13:56:46.145 [error] #4: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/hugh-clements/github-actions-workflow-security-scanner/latest - error GET Fetch timeout: 10000ms
+2025-11-04 13:56:46.166 [error] #5: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-containers/latest - error GET Canceled
+2025-11-04 13:56:46.174 [error] #6: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-docker/latest - error GET Fetch timeout: 10000ms
+2025-11-04 13:56:46.184 [error] #7: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-containers/latest - error GET Fetch timeout: 10000ms
+2025-11-04 13:56:46.198 [error] #8: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/redhat/vscode-yaml/latest - error GET Fetch timeout: 10000ms
+2025-11-04 20:49:46.164 [error] #52: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/davidanson/vscode-markdownlint/latest - error GET Canceled
+2025-11-04 20:49:46.166 [error] #53: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/christian-kohler/npm-intellisense/latest - error GET Canceled
+2025-11-04 20:49:46.167 [error] #54: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-edgedevtools/vscode-edge-devtools/latest - error GET Canceled
+2025-11-04 20:49:46.170 [error] #55: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot/latest - error GET Canceled
+2025-11-04 20:49:46.171 [error] #56: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/eamodio/gitlens/latest - error GET Canceled
+2025-11-04 20:49:46.172 [error] #57: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-kubernetes-tools/vscode-kubernetes-tools/latest - error GET Canceled
+2025-11-04 20:49:46.173 [error] #58: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/vscodevim/vim/latest - error GET Canceled
+2025-11-04 20:49:46.173 [error] #59: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/vscode-pull-request-github/latest - error GET Canceled
+2025-11-04 20:49:47.125 [error] #60: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-11-04 21:16:12.006 [error] #81: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-11-04 21:16:24.725 [error] #86: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/davidanson/vscode-markdownlint/latest - error GET Canceled
+2025-11-04 21:16:24.755 [error] #87: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/christian-kohler/npm-intellisense/latest - error GET Canceled
+2025-11-04 21:16:24.834 [error] #88: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-edgedevtools/vscode-edge-devtools/latest - error GET Canceled
+2025-11-04 21:16:24.835 [error] #89: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot/latest - error GET Canceled
+2025-11-04 21:16:24.838 [error] #90: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/eamodio/gitlens/latest - error GET Canceled
+2025-11-04 21:16:24.845 [error] #91: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-kubernetes-tools/vscode-kubernetes-tools/latest - error GET Canceled
+2025-11-04 21:16:24.845 [error] #92: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/vscodevim/vim/latest - error GET Canceled
+2025-11-04 21:16:24.859 [error] #93: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/vscode-pull-request-github/latest - error GET Canceled
+2025-11-04 22:59:09.793 [error] #112: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-11-04 23:04:34.993 [error] #113: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-11-05 19:13:49.676 [error] #157: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-11-05 19:19:29.843 [error] #158: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-11-05 19:25:09.932 [error] #159: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-11-05 21:00:02.998 [error] #160: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch

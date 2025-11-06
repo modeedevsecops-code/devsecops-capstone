@@ -1,0 +1,47 @@
+2025-11-06 00:53:52.139 [info] Extension host with pid 184320 started
+2025-11-06 00:53:52.139 [info] Skipping acquiring lock for /home/modee/.config/Code/User/workspaceStorage/e1a790d95dc168ef535e145dc02d8e8c.
+2025-11-06 00:53:54.211 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-06 00:53:54.305 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-06 00:53:54.365 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: false, activationEvent: 'onLanguage:github-actions-workflow'
+2025-11-06 00:53:54.651 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:github-actions-workflow'
+2025-11-06 00:53:54.904 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-06 00:53:54.936 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-06 00:53:55.271 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-06 00:53:55.282 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-06 00:53:56.758 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-06 00:53:56.768 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-06 00:53:57.214 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-06 00:53:57.406 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-06 00:53:58.313 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-06 00:54:01.091 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-06 00:54:01.977 [info] Eager extensions activated
+2025-11-06 00:54:02.006 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 00:54:02.019 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 00:54:02.107 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 00:54:02.248 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 00:54:02.638 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-11-06 00:54:04.105 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-06 00:54:04.127 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-06 00:54:04.338 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2025-11-06 00:54:04.522 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-06 21:26:48.430 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-11-06 21:26:53.629 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-06 21:26:53.647 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-11-06 22:58:32.916 [info] ExtensionService#_doActivateExtension Hugh-Clements.github-actions-workflow-security-scanner, startup: false, activationEvent: 'onLanguage:yaml'
+2025-11-06 23:38:49.450 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-06 23:38:49.725 [error] Error: Client is not running and can't be stopped. It's current state is: startFailed
+	at b.shutdown (/home/modee/.vscode/extensions/hugh-clements.github-actions-workflow-security-scanner-1.0.1/client/out/extension.js:1:310295)
+	at b.stop (/home/modee/.vscode/extensions/hugh-clements.github-actions-workflow-security-scanner-1.0.1/client/out/extension.js:1:309876)
+	at b.stop (/home/modee/.vscode/extensions/hugh-clements.github-actions-workflow-security-scanner-1.0.1/client/out/extension.js:1:2182)
+	at e.deactivate (/home/modee/.vscode/extensions/hugh-clements.github-actions-workflow-security-scanner-1.0.1/client/out/extension.js:1:336754)
+	at aJ.eb (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+	at file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+	at Array.map (<anonymous>)
+	at aJ.$ (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+	at aJ.terminate (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+	at RP.terminate (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+	at bs (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+	at MessagePortMain.<anonymous> (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-11-06 23:38:49.820 [info] Extension host with pid 184320 exiting with code 0

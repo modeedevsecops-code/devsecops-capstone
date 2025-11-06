@@ -1,0 +1,16 @@
+2025-11-03 16:43:14.475 [warning] Creation of workbench contribution 'workbench.contrib.extensionPoints' took 21ms.
+2025-11-03 16:43:14.594 [warning] Creation of workbench contribution 'workbench.contrib.viewsExtensionHandler' took 33ms.
+2025-11-03 16:43:14.630 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 33ms.
+2025-11-03 16:43:14.718 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 23ms.
+2025-11-03 16:43:14.822 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 48ms.
+2025-11-03 16:43:14.850 [warning] Creation of workbench contribution 'workbench.contrib.chatStatusBarEntry' took 27ms.
+2025-11-03 16:43:14.969 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 42ms.
+2025-11-03 16:43:22.435 [info] Started local extension host with pid 4868.
+2025-11-03 16:44:03.855 [info] Extension host (LocalProcess pid: 4868) is unresponsive.
+2025-11-03 16:44:04.350 [info] Extension host (LocalProcess pid: 4868) is responsive.
+2025-11-03 16:44:10.860 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 136ms.
+2025-11-03 16:44:12.361 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-03 16:44:18.564 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 142ms.
+2025-11-03 16:44:24.619 [info] [perf] Render performance baseline is 810ms
+2025-11-03 17:27:05.996 [info] Extension host (LocalProcess pid: 4868) is unresponsive.
+2025-11-03 17:27:10.346 [info] Extension host (LocalProcess pid: 4868) is responsive.

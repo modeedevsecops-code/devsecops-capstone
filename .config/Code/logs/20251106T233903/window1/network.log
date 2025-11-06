@@ -1,0 +1,18 @@
+2025-11-06 23:40:11.075 [error] #1: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/dbaeumer/vscode-eslint/latest - error GET Fetch timeout: 10000ms
+2025-11-06 23:40:11.091 [error] #2: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/esbenp/prettier-vscode/latest - error GET Fetch timeout: 10000ms
+2025-11-06 23:40:11.168 [error] #3: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/vscode-github-actions/latest - error GET Fetch timeout: 10000ms
+2025-11-06 23:40:11.196 [error] #4: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/hediet/vscode-drawio/latest - error GET Fetch timeout: 10000ms
+2025-11-06 23:40:11.264 [error] #5: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/hugh-clements/github-actions-workflow-security-scanner/latest - error GET Fetch timeout: 10000ms
+2025-11-06 23:40:11.343 [error] #6: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-containers/latest - error GET Fetch timeout: 10000ms
+2025-11-06 23:40:11.352 [error] #7: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-docker/latest - error GET Fetch timeout: 10000ms
+2025-11-06 23:40:11.359 [error] #8: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-containers/latest - error GET Fetch timeout: 10000ms
+2025-11-06 23:40:11.393 [error] #9: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/redhat/vscode-yaml/latest - error GET Fetch timeout: 10000ms
+2025-11-06 23:40:24.475 [error] #11: https://www.vscode-unpkg.net/_gallery/dbaeumer/vscode-eslint/latest - error GET Canceled
+2025-11-06 23:40:24.554 [error] #12: https://www.vscode-unpkg.net/_gallery/esbenp/prettier-vscode/latest - error GET Canceled
+2025-11-06 23:40:24.555 [error] #13: https://www.vscode-unpkg.net/_gallery/github/vscode-github-actions/latest - error GET Canceled
+2025-11-06 23:40:24.556 [error] #14: https://www.vscode-unpkg.net/_gallery/hediet/vscode-drawio/latest - error GET Canceled
+2025-11-06 23:40:24.558 [error] #15: https://www.vscode-unpkg.net/_gallery/hugh-clements/github-actions-workflow-security-scanner/latest - error GET Canceled
+2025-11-06 23:40:24.638 [error] #16: https://www.vscode-unpkg.net/_gallery/ms-azuretools/vscode-containers/latest - error GET Canceled
+2025-11-06 23:40:24.641 [error] #17: https://www.vscode-unpkg.net/_gallery/ms-azuretools/vscode-docker/latest - error GET Canceled
+2025-11-06 23:40:24.666 [error] #18: https://www.vscode-unpkg.net/_gallery/ms-vscode-remote/remote-containers/latest - error GET Canceled
+2025-11-06 23:40:24.910 [error] #19: https://www.vscode-unpkg.net/_gallery/redhat/vscode-yaml/latest - error GET Canceled

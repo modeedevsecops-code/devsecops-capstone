@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-09-22%2000-01-15.png" added="2025-11-05T23:54:55Z" modified="2025-11-05T23:54:55Z" visited="2025-11-05T23:54:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chatgpt-desktop-client" exec="&apos;chatgpt-desktop-client %u&apos;" modified="2025-11-05T23:54:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-11-06%2000-54-32.png" added="2025-11-05T23:55:30Z" modified="2025-11-05T23:55:30Z" visited="2025-11-05T23:55:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chatgpt-desktop-client" exec="&apos;chatgpt-desktop-client %u&apos;" modified="2025-11-05T23:55:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-11-06%2021-34-44.png" added="2025-11-06T20:35:05Z" modified="2025-11-06T20:35:05Z" visited="2025-11-06T20:35:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chatgpt-desktop-client" exec="&apos;chatgpt-desktop-client %u&apos;" modified="2025-11-06T20:35:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-11-06%2022-49-24.png" added="2025-11-06T21:49:52Z" modified="2025-11-06T21:49:52Z" visited="2025-11-06T21:49:52.445666Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chatgpt-desktop-client" exec="&apos;chatgpt-desktop-client %u&apos;" modified="2025-11-06T21:49:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

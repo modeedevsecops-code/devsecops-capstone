@@ -1,0 +1,2 @@
+2025-11-03 17:33:39.584 [info] Log level: Info
+2025-11-03 21:14:32.102 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for modeedevsecops-code/devsecops-capstone/0dd53703c4f3229a8fbae2aa78c01e859203d603: TypeError: Cannot read properties of null (reading 'author')

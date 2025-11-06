@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="snap-store_snap-store.desktop" score="48" last-seen="1762386703"/>
+    <application id="org.gnome.Nautilus.desktop" score="1.4873046875" last-seen="1761779265"/>
+    <application id="firefox_firefox.desktop" score="3018.21875" last-seen="1762465962"/>
+    <application id="code_code.desktop" score="19817.302734375" last-seen="1762468746"/>
+    <application id="org.gnome.Terminal.desktop" score="83.474609375" last-seen="1761925985"/>
+    <application id="org.gnome.font-viewer.desktop" score="0" last-seen="1762386346"/>
+    <application id="update-manager.desktop" score="0.125" last-seen="1761657290"/>
+    <application id="org.gnome.TextEditor.desktop" score="120.0625" last-seen="1761766829"/>
+    <application id="org.gnome.eog.desktop" score="0" last-seen="1762465782"/>
+    <application id="chatgpt-desktop-client_chatgpt-desktop-client.desktop" score="10987" last-seen="1762468746"/>
+  </context>
+</application-state>

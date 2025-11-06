@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/modee/Downloads/Screenshot%202025-09-17%20at%2022-21-42%20Issues%20%C2%B7%20modeedevsecops-code_modeedevsecops.png" added="2025-09-17T23:03:32.151086Z" modified="2025-09-17T23:03:32.151148Z" visited="2025-09-17T23:03:32.151088Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2025-09-17T23:03:32.151143Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshot%202025-09-17%20at%2022-04-35%20modeedevsecops-code_modeedevsecops%20at%20issue-1-dark-mode.png" added="2025-09-17T23:07:59.364204Z" modified="2025-09-17T23:07:59.364219Z" visited="2025-09-17T23:07:59.364206Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2025-09-17T23:07:59.364212Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-09-22%2000-00-43.png" added="2025-09-21T23:00:43.020663Z" modified="2025-09-21T23:00:43.020671Z" visited="2025-09-21T23:00:43.020664Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-09-21T23:00:43.020665Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-09-22%2000-01-15.png" added="2025-09-21T23:01:15.572129Z" modified="2025-09-21T23:08:10.875846Z" visited="2025-09-21T23:01:15.572134Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-09-21T23:01:15.572134Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2025-09-21T23:01:21.347702Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;eog %U&apos;" modified="2025-09-21T23:08:10.875827Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-10-29%2014-50-26.png" added="2025-10-29T13:50:26.117356Z" modified="2025-10-29T13:50:26.117369Z" visited="2025-10-29T13:50:26.117358Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-10-29T13:50:26.117358Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/devsecops-capstone/isolated_environment.sh" added="2025-10-29T14:40:39.847531Z" modified="2025-10-29T19:39:46.280521Z" visited="2025-10-29T14:40:39.847532Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-10-29T19:39:46.280507Z" count="7"/>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-10-29T14:47:26.731673Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Music" added="2025-10-29T19:41:39.591782Z" modified="2025-10-29T19:41:39.665613Z" visited="2025-10-29T19:41:39.591784Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-29T19:41:39.665608Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-11-03%2017-52-09.png" added="2025-11-03T16:52:09.479853Z" modified="2025-11-03T16:52:09.479858Z" visited="2025-11-03T16:52:09.479854Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-11-03T16:52:09.479855Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-11-06%2000-54-32.png" added="2025-11-05T23:54:32.021478Z" modified="2025-11-05T23:54:32.021481Z" visited="2025-11-05T23:54:32.021479Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-11-05T23:54:32.021480Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-11-06%2021-34-44.png" added="2025-11-06T20:34:44.379700Z" modified="2025-11-06T20:34:44.379704Z" visited="2025-11-06T20:34:44.379701Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-11-06T20:34:44.379701Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-11-06%2022-49-24.png" added="2025-11-06T21:49:24.491759Z" modified="2025-11-06T21:49:37.052835Z" visited="2025-11-06T21:49:24.491760Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-11-06T21:49:24.491761Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2025-11-06T21:49:37.052832Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

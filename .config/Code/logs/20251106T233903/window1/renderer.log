@@ -1,0 +1,20 @@
+2025-11-06 23:39:10.743 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 34ms.
+2025-11-06 23:39:10.861 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 21ms.
+2025-11-06 23:39:15.528 [info] Started local extension host with pid 219423.
+2025-11-06 23:39:45.962 [error] [Extension Host] (node:219423) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-06 23:39:51.866 [info] Extension host (LocalProcess pid: 219423) is unresponsive.
+2025-11-06 23:39:53.894 [info] Extension host (LocalProcess pid: 219423) is responsive.
+2025-11-06 23:40:11.078 [error] Error while getting the latest version for the extension dbaeumer.vscode-eslint from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-06 23:40:11.108 [error] Error while getting the latest version for the extension esbenp.prettier-vscode from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-06 23:40:11.174 [error] Error while getting the latest version for the extension github.vscode-github-actions from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-06 23:40:11.200 [error] Error while getting the latest version for the extension hediet.vscode-drawio from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-06 23:40:11.265 [error] Error while getting the latest version for the extension hugh-clements.github-actions-workflow-security-scanner from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-06 23:40:11.350 [error] Error while getting the latest version for the extension ms-azuretools.vscode-containers from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-06 23:40:11.353 [error] Error while getting the latest version for the extension ms-azuretools.vscode-docker from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-06 23:40:11.368 [error] Error while getting the latest version for the extension ms-vscode-remote.remote-containers from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-06 23:40:11.396 [error] Error while getting the latest version for the extension redhat.vscode-yaml from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Failed
+2025-11-06 23:40:14.872 [info] Extension host (LocalProcess pid: 219423) is unresponsive.
+2025-11-06 23:40:15.737 [info] Extension host (LocalProcess pid: 219423) is responsive.
+2025-11-06 23:40:41.499 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 222ms.
+2025-11-06 23:40:42.256 [info] Settings Sync: Account status changed from uninitialized to unavailable

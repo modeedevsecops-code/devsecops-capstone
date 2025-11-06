@@ -1,0 +1,41 @@
+2025-11-04 13:55:48.279 [info] update#setState idle
+2025-11-04 13:56:14.718 [info] update#setState checking for updates
+2025-11-04 13:56:14.770 [info] update#setState idle
+2025-11-04 13:56:50.895 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-04 14:48:21.666 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-04 14:56:14.737 [info] update#setState checking for updates
+2025-11-04 14:56:14.762 [info] update#setState idle
+2025-11-04 16:14:33.941 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-04 16:14:33.943 [info] update#setState checking for updates
+2025-11-04 16:14:34.132 [info] update#setState idle
+2025-11-04 20:18:59.983 [info] update#setState checking for updates
+2025-11-04 20:18:59.993 [info] update#setState idle
+2025-11-04 21:19:00.012 [info] update#setState checking for updates
+2025-11-04 21:19:00.056 [info] update#setState idle
+2025-11-04 22:19:00.053 [info] update#setState checking for updates
+2025-11-04 22:19:00.168 [info] update#setState idle
+2025-11-04 22:58:29.406 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-05 00:00:35.482 [info] update#setState checking for updates
+2025-11-05 00:00:35.510 [info] update#setState idle
+2025-11-05 00:29:50.378 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-05 14:07:28.848 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-05 14:12:36.993 [info] update#setState checking for updates
+2025-11-05 14:12:37.030 [info] update#setState idle
+2025-11-05 14:45:11.886 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-05 14:45:35.974 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-05 15:12:38.024 [info] update#setState checking for updates
+2025-11-05 15:12:38.037 [info] update#setState idle
+2025-11-05 17:57:09.710 [info] update#setState checking for updates
+2025-11-05 17:57:09.720 [info] update#setState idle
+2025-11-05 18:58:06.098 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-05 18:58:06.182 [info] update#setState checking for updates
+2025-11-05 18:58:06.245 [info] update#setState idle
+2025-11-05 21:00:00.815 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-05 21:00:00.816 [info] update#setState checking for updates
+2025-11-05 21:00:01.911 [info] update#setState idle
+2025-11-05 23:05:40.934 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-05 23:05:40.935 [info] update#setState checking for updates
+2025-11-05 23:05:42.273 [info] update#setState idle
+2025-11-06 00:05:41.758 [info] update#setState checking for updates
+2025-11-06 00:05:41.773 [info] update#setState idle
+2025-11-06 00:53:39.027 [info] Extension host with pid 3931 exited with code: 0, signal: unknown.

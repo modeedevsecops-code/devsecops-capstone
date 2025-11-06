@@ -1,0 +1,97 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "dd83af126c2836e22448be61943a2e0df7342a432822a7dba36c79aedc57882b",
+    "telemetry.devDeviceId": "cb1ebd9c-6a6e-4784-aeba-9d2041eb0860",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/modee/devsecops-capstone"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/modee/Todo-List-nodejs": "__default__profile__",
+            "file:///home/modee/modeedevsecops": "__default__profile__",
+            "file:///home/modee/IMDb-Clone": "__default__profile__",
+            "file:///home/modee": "__default__profile__",
+            "file:///home/modee/devsecops-capstone": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/modee/devsecops-capstone",
+            "backupPath": "/home/modee/.config/Code/Backups/ef87084b341977c39ff81041029e4632",
+            "uiState": {
+                "mode": 0,
+                "x": 66,
+                "y": 32,
+                "width": 1214,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "410a19ad2ed83307f0fc14aaf04e4660": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "6ee754f584b45e580ae3a189ba0f0e2d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "e7c032c7eba5064fc4dc663af552119c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "b1ef693199a313bdd4d0af0aa761fdbd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "e1a790d95dc168ef535e145dc02d8e8c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

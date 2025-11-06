@@ -1,0 +1,6 @@
+2025-11-04 20:50:03.850 [info] Getting Manifest... hediet.vscode-drawio
+2025-11-04 20:50:04.491 [info] Installing extension: hediet.vscode-drawio {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/modee/.vscode/extensions/extensions.json","path":"/home/modee/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.0","date":"2025-09-10T06:46:18.035Z"}}
+2025-11-04 20:50:23.839 [info] Extension signature verification result for hediet.vscode-drawio: Success. Internal Code: 0. Executed: true. Duration: 3279ms.
+2025-11-04 20:51:11.655 [info] Extracted extension to file:///home/modee/.vscode/extensions/hediet.vscode-drawio-1.9.0: hediet.vscode-drawio
+2025-11-04 20:51:12.163 [info] Renamed to /home/modee/.vscode/extensions/hediet.vscode-drawio-1.9.0
+2025-11-04 20:51:12.368 [info] Extension installed successfully: hediet.vscode-drawio vscode-userdata:/home/modee/.vscode/extensions/extensions.json

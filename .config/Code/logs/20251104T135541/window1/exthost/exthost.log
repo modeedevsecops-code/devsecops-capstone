@@ -1,0 +1,39 @@
+2025-11-04 13:56:22.184 [info] Extension host with pid 3931 started
+2025-11-04 13:56:22.187 [info] Skipping acquiring lock for /home/modee/.config/Code/User/workspaceStorage/e1a790d95dc168ef535e145dc02d8e8c.
+2025-11-04 13:56:30.746 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-04 13:56:31.034 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-04 13:56:31.427 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-04 13:56:34.641 [info] Not activating extension 'github.vscode-github-actions': Timed out while searching for 'workspaceContains' pattern **/.github/workflows/**
+2025-11-04 13:56:35.235 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-04 13:56:36.426 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-04 13:56:37.886 [info] Eager extensions activated
+2025-11-04 13:56:39.687 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-04 13:56:41.197 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-04 13:56:41.253 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-04 13:56:42.355 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-11-04 13:56:44.578 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-11-04 13:56:46.272 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-11-04 13:57:53.692 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-11-04 14:58:09.722 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: false, activationEvent: 'onLanguage:github-actions-workflow'
+2025-11-04 14:58:10.803 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:github-actions-workflow'
+2025-11-04 14:58:16.382 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-04 14:58:16.396 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-04 20:05:01.075 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-04 20:05:01.122 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-04 20:05:01.614 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2025-11-04 20:05:02.427 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-11-04 20:51:12.627 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-04 20:51:12.733 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-04 20:51:13.187 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-11-04 22:15:20.397 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-containers, startup: false, activationEvent: 'onLanguage:dockerfile'
+2025-11-05 14:25:25.231 [error] [ms-azuretools.vscode-containers] provider FAILED
+2025-11-05 14:25:25.234 [error] TypeError: fetch failed
+	at node:internal/deps/undici/undici:13510:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async EQ.globalThis.fetch (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:24242)
+	at async httpRequest (/home/modee/.vscode/extensions/ms-azuretools.vscode-containers-2.2.0/dist/extension.bundle.js:2:1581602)
+	at async doFetchHttpsJson (/home/modee/.vscode/extensions/ms-azuretools.vscode-containers-2.2.0/dist/extension.bundle.js:2:5547219)
+	at async fetchHttpsJson (/home/modee/.vscode/extensions/ms-azuretools.vscode-containers-2.2.0/dist/extension.bundle.js:2:5547093)
+	at async YP.provideCompletionItems (file:///snap/code/206/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:142846)
+2025-11-06 00:53:38.505 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-06 00:53:38.949 [info] Extension host with pid 3931 exiting with code 0

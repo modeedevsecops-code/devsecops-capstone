@@ -1,0 +1,13 @@
+2025-11-06 00:53:45.809 [info] update#setState idle
+2025-11-06 00:54:15.571 [info] update#setState checking for updates
+2025-11-06 00:54:15.579 [info] update#setState idle
+2025-11-06 22:14:12.115 [info] update#setState checking for updates
+2025-11-06 22:14:12.165 [info] update#setState idle
+2025-11-06 22:27:31.117 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-06 22:44:03.071 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-06 23:07:33.299 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-06 23:14:12.135 [info] update#setState checking for updates
+2025-11-06 23:14:12.159 [info] update#setState idle
+2025-11-06 23:32:29.707 [warning] No ptyHost heartbeat after 6 seconds
+2025-11-06 23:38:49.856 [info] Extension host with pid 184320 exited with code: 0, signal: unknown.
+2025-11-06 23:38:50.938 [error] Extension host with pid 184320 still exists, forcefully killing it...

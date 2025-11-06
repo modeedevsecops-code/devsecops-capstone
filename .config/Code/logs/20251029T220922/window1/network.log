@@ -1,0 +1,10 @@
+2025-10-29 22:10:14.793 [error] #1: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/dbaeumer/vscode-eslint/latest - error GET Canceled
+2025-10-29 22:10:14.842 [error] #2: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/esbenp/prettier-vscode/latest - error GET Canceled
+2025-10-29 22:10:14.843 [error] #3: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/vscode-github-actions/latest - error GET Canceled
+2025-10-29 22:10:15.230 [error] #4: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/hugh-clements/github-actions-workflow-security-scanner/latest - error GET Canceled
+2025-10-29 22:10:15.231 [error] #5: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-containers/latest - error GET Canceled
+2025-10-29 22:10:15.233 [error] #7: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-containers/latest - error GET Canceled
+2025-10-29 22:10:15.237 [error] #8: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/redhat/vscode-yaml/latest - error GET Canceled
+2025-10-30 00:13:45.650 [error] #34: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-30 00:19:32.403 [error] #35: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-30 00:25:12.787 [error] #36: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch

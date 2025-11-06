@@ -1,0 +1,47 @@
+2025-11-03 16:44:06.165 [info] [main] Log level: Info
+2025-11-03 16:44:06.166 [info] [main] Validating found git in: "git"
+2025-11-03 16:44:06.166 [info] [main] Using git "2.43.0" from "git"
+2025-11-03 16:44:06.166 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-03 16:44:06.166 [info] > git rev-parse --show-toplevel [68ms]
+2025-11-03 16:44:06.166 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [235ms]
+2025-11-03 16:44:06.166 [info] [Model][openRepository] Opened repository (path): /home/modee/devsecops-capstone
+2025-11-03 16:44:06.166 [info] [Model][openRepository] Opened repository (real path): /home/modee/devsecops-capstone
+2025-11-03 16:44:06.166 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-03 16:44:06.166 [info] > git config --get commit.template [51ms]
+2025-11-03 16:44:06.166 [info] > git rev-parse --show-toplevel [27ms]
+2025-11-03 16:44:06.166 [info] > git rev-parse --show-toplevel [7ms]
+2025-11-03 16:44:06.166 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-03 16:44:06.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [92ms]
+2025-11-03 16:44:06.166 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [116ms]
+2025-11-03 16:44:06.166 [info] > git status -z -uall [254ms]
+2025-11-03 16:44:06.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-11-03 16:44:06.166 [info] > git config --get --local branch.main.vscode-merge-base [37ms]
+2025-11-03 16:44:06.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2322ms]
+2025-11-03 16:44:06.166 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4912ms]
+2025-11-03 16:44:06.166 [info] > git config --get commit.template [5465ms]
+2025-11-03 16:44:06.166 [info] > git diff --name-status -z --diff-filter=ADMR 9e70887a722af7352589b29af2f628535b6f9fd0...refs/remotes/origin/main [1270ms]
+2025-11-03 16:44:06.166 [info] > git check-ignore -v -z --stdin [218ms]
+2025-11-03 16:44:06.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [91ms]
+2025-11-03 16:44:07.494 [info] > git show --textconv :mount_system.sh [649ms]
+2025-11-03 16:44:07.497 [info] > git show --textconv HEAD:mount_system.sh [544ms]
+2025-11-03 16:44:07.500 [info] > git ls-files --stage -- mount_system.sh [380ms]
+2025-11-03 16:44:09.629 [info] > git status -z -uall [981ms]
+2025-11-03 16:44:09.629 [info] > git hash-object -t tree /dev/null [1699ms]
+2025-11-03 16:44:09.630 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/modee/devsecops-capstone/mount_system.sh.git?%7B%22path%22%3A%22%2Fhome%2Fmodee%2Fdevsecops-capstone%2Fmount_system.sh%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-11-03 16:44:09.630 [info] > git cat-file -s a44c8cb65b78ccc3886461b8cd20debd62e78277 [1990ms]
+2025-11-03 16:44:09.639 [info] > git ls-tree -l HEAD -- mount_system.sh [2326ms]
+2025-11-03 16:44:09.641 [warning] [GitFileSystemProvider][stat] File not found - git:/home/modee/devsecops-capstone/mount_system.sh.git?%7B%22path%22%3A%22%2Fhome%2Fmodee%2Fdevsecops-capstone%2Fmount_system.sh%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-11-03 16:44:09.788 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [863ms]
+2025-11-03 16:44:12.977 [info] > git blame --root --incremental 9e70887a722af7352589b29af2f628535b6f9fd0 -- mount_system.sh [1151ms]
+2025-11-03 16:44:12.978 [info] fatal: no such path mount_system.sh in 9e70887a722af7352589b29af2f628535b6f9fd0
+2025-11-03 16:54:17.518 [info] > git show --textconv :automate_minimal_fs.sh [67ms]
+2025-11-03 16:54:17.523 [info] > git ls-files --stage -- automate_minimal_fs.sh [39ms]
+2025-11-03 16:54:17.638 [info] > git cat-file -s a55bd41baba4f9be742a001df4b8bd6fb546dd6c [51ms]
+2025-11-03 16:54:18.316 [info] > git blame --root --incremental 9e70887a722af7352589b29af2f628535b6f9fd0 -- automate_minimal_fs.sh [46ms]
+2025-11-03 16:54:24.959 [info] > git show --textconv :mount_system.sh [317ms]
+2025-11-03 16:54:24.959 [info] > git show --textconv HEAD:mount_system.sh [257ms]
+2025-11-03 16:54:24.960 [info] > git ls-files --stage -- mount_system.sh [150ms]
+2025-11-03 16:54:25.035 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/modee/devsecops-capstone/mount_system.sh.git?%7B%22path%22%3A%22%2Fhome%2Fmodee%2Fdevsecops-capstone%2Fmount_system.sh%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-11-03 16:54:25.143 [info] > git cat-file -s a44c8cb65b78ccc3886461b8cd20debd62e78277 [143ms]
+2025-11-03 16:54:25.145 [info] > git ls-tree -l HEAD -- mount_system.sh [207ms]
+2025-11-03 16:54:25.145 [warning] [GitFileSystemProvider][stat] File not found - git:/home/modee/devsecops-capstone/mount_system.sh.git?%7B%22path%22%3A%22%2Fhome%2Fmodee%2Fdevsecops-capstone%2Fmount_system.sh%22%2C%22ref%22%3A%22HEAD%22%7D

@@ -1,0 +1,10 @@
+2025-11-03 17:33:17.292 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 29ms.
+2025-11-03 17:33:17.438 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 29ms.
+2025-11-03 17:33:17.503 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 24ms.
+2025-11-03 17:33:20.834 [info] Started local extension host with pid 14092.
+2025-11-03 17:33:49.456 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-03 17:33:54.433 [info] [perf] Render performance baseline is 282ms
+2025-11-03 20:46:51.082 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-11-03 20:52:57.016 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-11-03 22:58:09.429 [info] Extension host (LocalProcess pid: 14092) is unresponsive.
+2025-11-03 22:58:09.451 [info] Extension host (LocalProcess pid: 14092) is responsive.

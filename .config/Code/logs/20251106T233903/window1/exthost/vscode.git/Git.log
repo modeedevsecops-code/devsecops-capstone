@@ -1,0 +1,77 @@
+2025-11-06 23:40:00.539 [info] [main] Log level: Info
+2025-11-06 23:40:00.540 [info] [main] Validating found git in: "git"
+2025-11-06 23:40:00.540 [info] [main] Using git "2.43.0" from "git"
+2025-11-06 23:40:00.540 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-06 23:40:00.540 [info] > git rev-parse --show-toplevel [125ms]
+2025-11-06 23:40:00.540 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [820ms]
+2025-11-06 23:40:00.540 [info] [Model][openRepository] Opened repository (path): /home/modee/devsecops-capstone
+2025-11-06 23:40:00.540 [info] [Model][openRepository] Opened repository (real path): /home/modee/devsecops-capstone
+2025-11-06 23:40:00.540 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-06 23:40:00.540 [info] > git config --get commit.template [359ms]
+2025-11-06 23:40:00.540 [info] > git rev-parse --show-toplevel [190ms]
+2025-11-06 23:40:00.540 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-06 23:40:00.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [75ms]
+2025-11-06 23:40:00.920 [info] > git status -z -uall [115ms]
+2025-11-06 23:40:00.921 [info] > git rev-parse --show-toplevel [330ms]
+2025-11-06 23:40:01.324 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [487ms]
+2025-11-06 23:40:01.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [291ms]
+2025-11-06 23:40:01.882 [info] > git rev-parse --show-toplevel [871ms]
+2025-11-06 23:40:02.426 [info] > git config --get commit.template [746ms]
+2025-11-06 23:40:03.263 [info] > git rev-parse --show-toplevel [848ms]
+2025-11-06 23:40:03.304 [info] > git config --get --local branch.main.vscode-merge-base [1407ms]
+2025-11-06 23:40:03.754 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-06 23:40:03.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [361ms]
+2025-11-06 23:40:03.855 [warning] [Git][getBranch] No such branch: origin/main
+2025-11-06 23:40:03.957 [info] > git rev-parse --show-toplevel [162ms]
+2025-11-06 23:40:03.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [207ms]
+2025-11-06 23:40:04.545 [info] > git status -z -uall [543ms]
+2025-11-06 23:40:04.593 [info] > git reflog main --grep-reflog=branch: Created from *. [629ms]
+2025-11-06 23:40:04.757 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [548ms]
+2025-11-06 23:40:04.831 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [302ms]
+2025-11-06 23:40:04.918 [info] [Model][openRepository] Opened repository (path): /home/modee/devsecops-capstone/node-js-sample
+2025-11-06 23:40:04.918 [info] [Model][openRepository] Opened repository (real path): /home/modee/devsecops-capstone/node-js-sample
+2025-11-06 23:40:04.918 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-06 23:40:05.132 [info] > git config --get commit.template [98ms]
+2025-11-06 23:40:05.150 [info] > git rev-parse --show-toplevel [32ms]
+2025-11-06 23:40:05.313 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-06 23:40:05.510 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [228ms]
+2025-11-06 23:40:05.913 [info] > git status -z -uall [218ms]
+2025-11-06 23:40:05.913 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [75ms]
+2025-11-06 23:40:05.915 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [542ms]
+2025-11-06 23:40:05.951 [info] [Model][openRepository] Opened repository (path): /home/modee/devsecops-capstone/nodejs-demoapp
+2025-11-06 23:40:05.951 [info] [Model][openRepository] Opened repository (real path): /home/modee/devsecops-capstone/nodejs-demoapp
+2025-11-06 23:40:05.951 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-06 23:40:05.976 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-06 23:40:06.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [186ms]
+2025-11-06 23:40:06.763 [info] > git config --get commit.template [479ms]
+2025-11-06 23:40:06.903 [info] > git config --get commit.template [239ms]
+2025-11-06 23:40:07.107 [info] > git config --get --local branch.main.vscode-merge-base [314ms]
+2025-11-06 23:40:07.107 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-06 23:40:07.237 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-06 23:40:07.245 [info] > git reflog main --grep-reflog=branch: Created from *. [70ms]
+2025-11-06 23:40:07.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [186ms]
+2025-11-06 23:40:07.284 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2025-11-06 23:40:07.448 [info] > git status -z -uall [72ms]
+2025-11-06 23:40:07.521 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [75ms]
+2025-11-06 23:40:07.553 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [46ms]
+2025-11-06 23:40:09.042 [info] > git status -z -uall [1566ms]
+2025-11-06 23:40:09.400 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [111ms]
+2025-11-06 23:40:09.473 [info] > git config --get commit.template [83ms]
+2025-11-06 23:40:09.509 [info] > git config --get --local branch.main.vscode-merge-base [43ms]
+2025-11-06 23:40:09.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [211ms]
+2025-11-06 23:40:09.923 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [94ms]
+2025-11-06 23:40:10.156 [info] > git merge-base refs/heads/main refs/remotes/origin/main [237ms]
+2025-11-06 23:40:10.197 [info] > git status -z -uall [185ms]
+2025-11-06 23:40:10.199 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [49ms]
+2025-11-06 23:40:10.342 [info] > git merge-base refs/heads/main refs/remotes/origin/main [75ms]
+2025-11-06 23:40:10.423 [info] > git diff --name-status -z --diff-filter=ADMR d786910adf1cc638e18ae99978a2d52289b7b668...refs/remotes/origin/main [239ms]
+2025-11-06 23:40:10.525 [info] > git diff --name-status -z --diff-filter=ADMR d786910adf1cc638e18ae99978a2d52289b7b668...refs/remotes/origin/main [102ms]
+2025-11-06 23:40:13.754 [info] > git check-ignore -v -z --stdin [484ms]
+2025-11-06 23:40:13.759 [info] > git check-ignore -v -z --stdin [137ms]
+2025-11-06 23:40:13.769 [info] > git check-ignore -v -z --stdin [84ms]
+2025-11-06 23:40:20.677 [info] > git check-ignore -v -z --stdin [12ms]
+2025-11-06 23:40:20.704 [info] > git check-ignore -v -z --stdin [119ms]
+2025-11-06 23:40:27.691 [info] > git show --textconv :.github/workflows/codeql.yml [55ms]
+2025-11-06 23:40:28.091 [info] > git ls-files --stage -- .github/workflows/codeql.yml [408ms]
+2025-11-06 23:40:28.191 [info] > git cat-file -s 6d323a14fdd2b9d971c6a2cbf6ffc8022a90644b [60ms]
+2025-11-06 23:40:31.007 [info] > git blame --root --incremental 2e43daddc76fc5992f0e2d399e0ba5d06829b1f2 -- .github/workflows/codeql.yml [354ms]
