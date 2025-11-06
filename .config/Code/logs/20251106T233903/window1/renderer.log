@@ -18,3 +18,9 @@
 2025-11-06 23:40:15.737 [info] Extension host (LocalProcess pid: 219423) is responsive.
 2025-11-06 23:40:41.499 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 222ms.
 2025-11-06 23:40:42.256 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-06 23:40:55.137 [warning] Creation of workbench contribution 'workbench.contrib.dropOrPasteIntoSchema' took 247ms.
+2025-11-06 23:40:55.454 [info] [perf] Render performance baseline is 305ms
+2025-11-06 23:45:23.596 [info] Extension host (LocalProcess pid: 219423) is unresponsive.
+2025-11-06 23:45:23.607 [info] Extension host (LocalProcess pid: 219423) is responsive.
+2025-11-06 23:45:28.207 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-11-06 23:45:37.827 [info] UNRESPONSIVE extension host: starting to profile NOW
