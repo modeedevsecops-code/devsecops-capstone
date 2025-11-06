@@ -113,4 +113,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/modee/devsecops-capstone/.github/workflows/index.js" added="2025-11-06T23:26:28Z" modified="2025-11-06T23:26:28Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/javascript"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-11-06T23:26:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

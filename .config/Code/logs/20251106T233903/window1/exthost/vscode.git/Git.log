@@ -75,3 +75,27 @@
 2025-11-06 23:40:28.091 [info] > git ls-files --stage -- .github/workflows/codeql.yml [408ms]
 2025-11-06 23:40:28.191 [info] > git cat-file -s 6d323a14fdd2b9d971c6a2cbf6ffc8022a90644b [60ms]
 2025-11-06 23:40:31.007 [info] > git blame --root --incremental 2e43daddc76fc5992f0e2d399e0ba5d06829b1f2 -- .github/workflows/codeql.yml [354ms]
+2025-11-06 23:53:56.235 [info] > git check-ignore -v -z --stdin [112ms]
+2025-11-06 23:53:57.740 [info] > git check-ignore -v -z --stdin [28ms]
+2025-11-06 23:53:59.316 [info] > git check-ignore -v -z --stdin [48ms]
+2025-11-06 23:53:59.333 [info] > git check-ignore -v -z --stdin [26ms]
+2025-11-06 23:54:03.118 [info] > git check-ignore -v -z --stdin [23ms]
+2025-11-06 23:54:04.453 [info] > git check-ignore -v -z --stdin [25ms]
+2025-11-06 23:54:06.133 [info] > git check-ignore -v -z --stdin [54ms]
+2025-11-06 23:54:06.147 [info] > git check-ignore -v -z --stdin [34ms]
+2025-11-06 23:54:07.253 [info] > git check-ignore -v -z --stdin [14ms]
+2025-11-06 23:54:34.703 [info] > git check-ignore -v -z --stdin [28ms]
+2025-11-07 00:26:30.452 [info] > git check-ignore -v -z --stdin [14ms]
+2025-11-07 00:26:30.543 [info] > git show --textconv :.github/workflows/index.js [38ms]
+2025-11-07 00:26:30.543 [info] > git ls-files --stage -- .github/workflows/index.js [12ms]
+2025-11-07 00:26:30.619 [info] > git hash-object -t tree /dev/null [28ms]
+2025-11-07 00:26:30.620 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/modee/devsecops-capstone/.github/workflows/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmodee%2Fdevsecops-capstone%2F.github%2Fworkflows%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-11-07 00:26:30.620 [info] > git hash-object -t tree /dev/null [50ms]
+2025-11-07 00:26:30.620 [warning] [GitFileSystemProvider][stat] File not found - git:/home/modee/devsecops-capstone/.github/workflows/index.js.git?%7B%22path%22%3A%22%2Fhome%2Fmodee%2Fdevsecops-capstone%2F.github%2Fworkflows%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-11-07 00:26:30.667 [info] > git blame --root --incremental 2e43daddc76fc5992f0e2d399e0ba5d06829b1f2 -- .github/workflows/index.js [10ms]
+2025-11-07 00:26:30.667 [info] fatal: no such path .github/workflows/index.js in 2e43daddc76fc5992f0e2d399e0ba5d06829b1f2
+2025-11-07 00:26:31.195 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-07 00:26:31.219 [info] > git config --get commit.template [40ms]
+2025-11-07 00:26:31.240 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2025-11-07 00:26:31.315 [info] > git status -z -uall [51ms]
+2025-11-07 00:26:31.325 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]

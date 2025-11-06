@@ -121,4 +121,13 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/modee/Pictures/Screenshots/Screenshot%20from%202025-11-07%2000-25-23.png" added="2025-11-06T23:25:23.381899Z" modified="2025-11-06T23:25:23.381904Z" visited="2025-11-06T23:25:23.381901Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-11-06T23:25:23.381901Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
